@@ -1,5 +1,6 @@
 package com.yhp;
 
+import com.yhp.circle.SingleCircleLinkedList;
 import com.yhp.single.SingleExLinkedList;
 import com.yhp.single.SingleLinkedList;
 
@@ -27,7 +28,8 @@ public class Main {
 	
 	public static void main(String[] args) {
 //		testLinkedList(new LinkedList<>());
-		testLinkedList(new SingleExLinkedList());
+//		testLinkedList(new SingleExLinkedList());
+		testLinkedList(new SingleCircleLinkedList());
 	}
 
 }
